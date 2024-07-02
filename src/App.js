@@ -11,7 +11,7 @@ export default function App() {
           This project was coded by <a href="https://www.linkedin.com/in/suzanne-paterson-778b492b9/"
           target="_blank" rel="noreferrer" > Suzanne Paterson </ a> {""}
            and is < a href = "https://github.com/suzanne301/weather-react"
-           target="_blank" rel="noreferrer"> open - sourced on GitHub</a>
+           target="_blank" rel="noreferrer"> open-sourced on GitHub</a>
         </p>
       </footer>
     </div>
