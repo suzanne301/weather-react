@@ -16,7 +16,7 @@ export default function Weather(props) {
       city: response.data.city,
       description: response.data.condition.description,
       date: new Date(response.data.time * 1000),
-      iconUrl: "http://shecodes-assests.s3.amazonaws.com/api/weather/icons/scattered-clouds"
+      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}`
     });
   }
 
