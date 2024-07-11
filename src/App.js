@@ -17,14 +17,15 @@ export default function App() {
             rel="noreferrer"
             > 
             Suzanne Paterson 
-            </a> {""} 
-            and is {" "}
+            </a>, {""}is open-sourced on {" "}
             <a 
             href="https://github.com/suzanne301/weather-react" target="_blank" 
             rel="noreferrer"
             >
-             open-sourced on GitHub 
+            GitHub 
             </a>
+            {" "}and hosted on 
+            <a href='https://weather-react-suzanne.netlify.app/'> Netlify</a>.
         </footer>
       </div>
     </div>
