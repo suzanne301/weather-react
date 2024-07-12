@@ -1,8 +1,12 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
 import "./WeatherForecast.css"
+import Axios from "axios";
 
 export default function WeatherForecast() {
+  let apiKey = {
+    ad793a6d772939c31783de5822791acf
+  }
   return (
     <div className="WeatherForecast">
       <div className="row">
