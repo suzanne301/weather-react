@@ -9,7 +9,6 @@ export default function Weather(props) {
   let [city, setCity] = useState(props.defaultCity);
 
   function handleResponse(response) {
-    console.log(response.data)
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
@@ -38,7 +37,6 @@ export default function Weather(props) {
    axios.get(apiUrl).then(handleResponse);
  }
 
-
   if (weatherData.ready) {
   return (
     <div className="Weather">
@@ -54,14 +52,15 @@ export default function Weather(props) {
               />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary w-100"/>
+            <input type="submit" 
+            value="Search" 
+            className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
-        < WeatherInfo 
-          data={weatherData} 
-        />
-        <WeatherForecast coordinates={weatherData.coordinates}/>
+        <WeatherInfo data={weatherData} />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
   );
   } else {
