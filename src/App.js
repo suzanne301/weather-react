@@ -14,18 +14,22 @@ export default function App() {
             <a 
             href="https://www.linkedin.com/in/suzanne-paterson-778b492b9/" 
             target="_blank" 
-            rel="noreferrer"
+            rel="noopener noreferrer"
             > 
             Suzanne Paterson 
             </a>, {""}is open-sourced on {" "}
             <a 
-            href="https://github.com/suzanne301/weather-react" target="_blank" 
-            rel="noreferrer"
+            href="https://github.com/suzanne301/weather-react" 
+            target="_blank" 
+            rel="noopener noreferrer"
             >
             GitHub 
             </a>
             {" "}and hosted on 
-            <a href='https://weather-react-suzanne.netlify.app/'> Netlify</a>.
+            <a 
+            href='https://weather-react-suzanne.netlify.app/'
+            target='_blank'
+            rel='noopener noreferrer'> Netlify</a>.
         </footer>
       </div>
     </div>
